@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>La santé</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <menu>
+            <p><a href="#categories">Товары</a></p>
+            <p class="logo">La santé</p>
+            <p><a href="register.php">Регистрация</a></p>
+            <p><a href="login.php">Авторизация</a></p>
+            <p><a href="admin-panel.php">Админ-панель</a></p>
+            <a href="cart.php"><img src="img/cart.svg fill.png" id="cart-img" alt=""></a>
+        </menu>
+    </header>
+    <main>
+        <div class="construct-1">   
+            <img src="img/image1.png" alt="">
+            <div class="column-1">
+                <p class="main-text">ОТКРОЙТЕ ДВЕРИ В МИР СПОРТИВНЫХ ВОЗМОЖНОСТЕЙ</p>
+                <p class="desc-text">Инвентарь высокого качества для вашей спортивной жизни. У нас - всё для спорта: от фитнеса до аксессуаров. Доставка по стране. Покупайте уверенно!</p>
+                <button><a href="#categories" style="color: white;">Выбрать инвентарь</a></button>
+            </div>
+        </div>
+    </main>
+    <a name="categories">
+    <div class="categories">
+        <div class="row-1">
+            <div class="categorie-1">
+                <a href="category.php?category=mat">
+                    <button>Мягкий и упругий</button>
+                    <button style="width: 300px; margin-top: 8px;">Есть ремешок для переноски</button>
+                    <img src="img/image 2.png" alt="">
+                    <p>коврик для фитнеса и йоги</p>
+                </a>
+            </div>
+            <div class="categorie-2" style="width: 1280px; height: 564px; background: #f7b5cd;">
+                <a href="category.php?category=weights">
+                    <button style="width: 229px;">комфортный вес 0.5 кг</button>
+                    <button style="width: 220px; margin-top: 8px;">регулируемый размер</button>
+                    <img style="width: 585px; height: 484px; padding-left: 262px; margin-top: -55px;" src="img/image 3.png" alt="">
+                    <p>утяжелители для рук</p>
+                </a>
+            </div>
+        </div>
+        <div class="row-1">
+            <div class="categorie-1" style="background: #cc70af;">
+               <a href="category.php?category=dumbbells">
+                    <button>Универсальный вес</button>
+                    <button style="width: 187px; margin-top: 8px;">Идеальная форма</button>
+                    <img src="img/image 4.png" alt="">
+                    <p>гантели</p>
+                </a>
+            </div>
+            <div class="categorie-2" style="width: 640px; height: 564px; background: #5b30b9;">
+                <a href="category.php?category=bottles">
+                    <button style="width: 229px;">Удобный объём 500 мл</button>
+                    <button style="width: 347px; margin-top: 8px;">для холодных и горячих напитков</button>
+                    <img style="width: 640px; height: 484px; margin-top: 20px;" src="img/image 5.png" alt="">
+                    <p style="margin-top: -50px;">термобутылка</p>
+                </a>
+            </div>
+            <div class="categorie-2" style="width: 640px; height: 564px; background: #34beb5;">
+                <a href="category.php?category=bands">
+                    <button style="width: 188px;">Три вида нагрузки</button>
+                    <button style="width: 134px; margin-top: 8px;">не скользят</button>
+                    <img style="width: 640px; height: 484px; margin-top: 55px;" src="img/image 6.png" alt="">
+                    <p style="margin-top: -80px;">резинки для фитнеса</p>
+                </a>
+            </div>
+        </div>
+        <div class="row-1">
+            <div class="categorie-1" style="background: #7c6868;">
+                <a href="category.php?category=bags">
+                    <button style="width: 258px;">Переносная сумка-чехол</button>
+                    <button style="width: 244px; margin-top: 8px;">Для переноски коврика</button>
+                    <img src="img/image 7.png" alt="">
+                    <p>сумка для коврика</p>
+                </a>
+            </div>
+            <div class="categorie-2" style="width: 640px; height: 564px; background: #c0624d;">
+                <a href="category.php?category=yoga-blocks">
+                    <button style="width: 196px;">Развитие гибкости</button>
+                    <button style="width: 244px; margin-top: 8px;">Предотвращение травм</button>
+                    <img style="width: 640px; height: 484px; margin-top: 15px;" src="img/image 8.png" alt="">
+                    <p  style="margin-top: -60px;">блоки для йоги</p>
+                </a>
+            </div>
+            <div class="categorie-2" style="width: 640px; height: 564px; background: #b984a0;">
+                <a href="category.php?category=massage-rollers">
+                    <button style="width: 213px;">Расслабляет мышцы</button>
+                    <button style="width: 272px; margin-top: 8px;">Профилактика травм и ЛФК</button>
+                    <img style="width: 640px; height: 484px; margin-top: -5px;" src="img/image 9.png" alt="">
+                    <p  style="margin-top: -35px;">массажный ролик</p>
+                </a>
+            </div>
+        </div>
+    </div>
+    </a>
+    <div class="input">
+        <div class="labels">
+            <p>Полезная рассылка</p>
+            <input type="text" placeholder="Введите ваш email">
+            <button>Подписаться</button>
+        </div>
+        <p class="disclaimer">Нажимая на кнопку “Подписаться”, Вы соглашаетесь с условиями использования сайта.</p>
+    </div>
+    <script src="script.js">
